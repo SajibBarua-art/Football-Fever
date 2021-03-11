@@ -4,8 +4,7 @@ import TeamDetails from "./Components/TeamDetails/TeamDetails";
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 
 function App() {

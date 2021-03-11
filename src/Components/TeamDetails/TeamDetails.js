@@ -54,15 +54,15 @@ const LeagueDetails = () => {
                         <h6> <FontAwesomeIcon icon={genderLogo} /> Gender: {strGender}</h6>
                     </div>
                     <div className="d-flex align-items-center justify-content-center col-md-6 col-sm-12">
-                        <img id="genderImage" src={genderImage} alt="No gender picture!" />
+                        <img id="genderImage" src={genderImage} alt="" />
                     </div>
                 </div>
                 <p id="description">{strDescriptionEN}</p>
             </div>
             <div className="d-flex justify-content-center social-icon">
-                <a id="twitter-icon" href={twitterUrl} target="_blank"> <FontAwesomeIcon size="4x" icon={faTwitter} /> </a>
-                <a href={facebookUrl} target="_blank"><FontAwesomeIcon size="4x" icon={faFacebook} /></a>
-                <a id="youtube-icon" href={youtubeUrl} target="_blank"> <FontAwesomeIcon size="4x" icon={faYoutube} /> </a>
+                <a id="twitter-icon" href={twitterUrl} rel="noreferrer" target="_blank"> <FontAwesomeIcon size="4x" icon={faTwitter} /> </a>
+                <a href={facebookUrl} rel="noreferrer" target="_blank"><FontAwesomeIcon size="4x" icon={faFacebook} /></a>
+                <a id="youtube-icon" href={youtubeUrl} rel="noreferrer" target="_blank"> <FontAwesomeIcon size="4x" icon={faYoutube} /> </a>
             </div>
         </div>
     );
