@@ -1,0 +1,7 @@
+.title-style {
+    background-image: url("../../images/header-background.jpeg");
+    background-repeat: no-repeat;
+    background-size: 35em;
+    color: white;
+    padding: 50px 200px 150px 200px;
+}
